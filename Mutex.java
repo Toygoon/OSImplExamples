@@ -4,7 +4,7 @@ public class Mutex {
     public static int total = 10;
     public static final int LOOPS = 100000;
 
-    public static ReentrantLock lock = new ReentrantLock();
+    public static final ReentrantLock lock = new ReentrantLock();
 
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Start : " + total);
